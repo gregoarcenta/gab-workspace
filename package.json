@@ -1,6 +1,8 @@
 {
   "name": "gab-workspace",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -12,7 +14,6 @@
     "gab-side-menu:test": "ng test gab-side-menu --no-watch --no-progress --browsers=ChromeHeadless",
     "gab-side-menu:publish": "npm run gab-side-menu:lint && npm run gab-side-menu:test && npm run gab-side-menu:build && npm publish dist/gab-side-menu/"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^19.0.0",
     "@angular/common": "^19.0.0",
