@@ -1,6 +1,11 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.4",
   "name": "gab-side-menu",
+  "keywords": [
+    "menu",
+    "angular",
+    "component"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",

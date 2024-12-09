@@ -1,63 +1,53 @@
-# GabSideMenu
+## Documentation
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.0.
+### Project Overview
 
-## Code scaffolding
+The **GabSideMenu** project is a web application developed using the Angular framework, specifically version 19.0.0. This application serves as a side menu component that can be integrated into larger projects to provide a consistent and functional sidebar navigation experience.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### Installation
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+To get started with this project, clone the repository and install the necessary dependencies using the `pnpm` package manager.
 
 ```bash
-ng generate --help
+git clone <repository-url>
+cd GabSideMenu
+pnpm install
 ```
 
-## Building
+### Usage
 
-To build the library, run:
+After installation, the project can be served locally with the following command:
 
 ```bash
-ng build gab-side-menu
+pnpm start
 ```
 
-This command will compile your project, and the build artifacts will be placed in the `dist/` directory.
+This will launch the application and automatically open it in your default browser at `http://localhost:4200/`.
 
-### Publishing the Library
+### Features
 
-Once the project is built, you can publish your library by following these steps:
+- **Responsive Design**: Adaptable UI for different screen sizes.
+- **Customizable Options**: Easily modifiable settings for the menu's appearance and functionality.
+- **Integration Support**: Seamlessly integrates with other Angular components.
 
-1. Navigate to the `dist` directory:
-   ```bash
-   cd dist/gab-side-menu
-   ```
+### Development
 
-2. Run the `npm publish` command to publish your library to the npm registry:
-   ```bash
-   npm publish
-   ```
+For development purposes, ensure that all code changes are followed by appropriate testing. The project utilizes Karma and Jasmine for unit tests.
 
-## Running unit tests
+#### Running Tests
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Execute tests using:
 
 ```bash
-ng test
+pnpm test
 ```
 
-## Running end-to-end tests
+This command will run all unit tests and display results in the terminal.
 
-For end-to-end (e2e) testing, run:
+### Contribution
 
-```bash
-ng e2e
-```
+Contributions to this project are welcome. Please fork the repository, make your changes, and submit a pull request for review.
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+### License
 
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
