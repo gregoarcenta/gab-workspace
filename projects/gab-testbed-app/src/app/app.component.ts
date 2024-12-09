@@ -12,6 +12,11 @@ export class AppComponent {
   isAuthenticated = signal(false);
   TitleColor = TitleColor;
 
+  routes = [
+    { name: 'Home', path: '/panel' },
+    { name: 'Profile', path: '/panel/profile' },
+  ];
+
   signIn() {
     this.isAuthenticated.set(true);
   }
