@@ -6,8 +6,8 @@
       <h6
         class="text-2xl block antialiased tracking-normal font-sans font-semibold leading-relaxed text-white"
       >
-        <span [class]="titleColor()">ARCEN</span>
-        <span class="font-thin"> Corp</span>
+        <span [class]="titleColor()" class="uppercase">{{ title() }}</span>
+        <span class="font-thin capitalize"> {{ subTitle() }}</span>
       </h6>
     </a>
     <button

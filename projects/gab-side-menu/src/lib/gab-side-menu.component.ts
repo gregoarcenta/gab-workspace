@@ -24,6 +24,8 @@ export enum TitleColor {
 export class GabSideMenuComponent {
   public isAuthenticated = input(false);
   public titleColor = input<TitleColor>(TitleColor.purple);
+  public title = input<string>('arcentales');
+  public subTitle = input<string>('corp');
 
   public signOut = output();
   public signIn = output();
